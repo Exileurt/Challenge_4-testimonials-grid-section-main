@@ -293,6 +293,19 @@ body {
     opacity: 80%;
 }
 
+@media screen and (max-width: 1000px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        height: auto;
+        gap: 10px;
+        }
+        
+}
+
 @media screen and (max-width: 375px) {
     .wrapper {
         display: grid;
